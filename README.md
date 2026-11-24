@@ -12,7 +12,7 @@ A hands-on guide to **Apache Airflow 3** on a Windows system. It starts from zer
 | Stage | Guide |
 |---|---|
 | 🟢 Install | [Install Airflow 3.1 using WSL on Windows](Install-Airflow-3.1-using-WSL-on-Windows.md) |
-| 🟢 Install | [Install Airflow 3.1 using Docker on Windows](Install-Airflow-3.1-using-Docker-on-Windows.md) |
+| 🟢 Install | [Install Airflow 2.3 using Docker on Windows](Install-Airflow-2.3-using-Docker-on-Windows.md) |
 | 🔵 Operate | [Airflow CLI](Airflow-CLI.md) |
 | 🔵 Operate | [Create New DAG](Create-New-DAG.md) |
 | 🔵 Operate | [Airflow REST API](Airflow-REST-API.md) |
@@ -53,23 +53,6 @@ A hands-on guide to **Apache Airflow 3** on a Windows system. It starts from zer
 - Docker Desktop (for the Docker install and the Redis broker)
 - Apache Hadoop & Apache Spark installed on Windows (for the integration guides)
 - MySQL Server on Windows (for the multi-node cluster)
-
-## 📁 Repository Structure
-```
-Apache-Airflow-Zero-To-Cluster-On-Windows/
-├── README.md
-├── LICENSE
-├── Airflow_Overview_Setup.pdf
-├── Install-Airflow-3.1-using-WSL-on-Windows.md
-├── Install-Airflow-3.1-using-Docker-on-Windows.md
-├── Airflow-CLI.md
-├── Create-New-DAG.md
-├── Airflow-REST-API.md
-├── Integrate-Airflow-with-Apache-Hadoop.md
-├── Integrate-Airflow-with-Apache-Spark.md
-├── Configure-Multi-Node-Celery-Airflow.md
-└── Airflow-Best-Practices.md
-```
 
 ## 📝 License
 This project is licensed under the [MIT License](LICENSE).
