@@ -382,7 +382,7 @@ The above file ensures the following environment variables are set:
 * `_AIRFLOW_WWW_USER_PASSWORD` is set to `airflow` for Admin user password in Airflow metadata database.
 
 These variables override the default values set in `docker-compose.yml` file.
-> Refer Airflow Docker Variables to know more.
+> Refer [Airflow Docker Variables](Airflow-Docker-Variables.md) to know more.
  
 # 1.5 Start Docker Compose
 Follow the below steps to start Docker Compose and verify:
