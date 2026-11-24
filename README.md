@@ -2,7 +2,9 @@
 
 A hands-on guide to **Apache Airflow 3** on a Windows system. It starts from zero with a single-node installation (WSL2 & Docker) and ends with a **multi-node CeleryExecutor cluster** (Redis broker + MySQL metadata database), all running on one Windows machine. Along the way it covers the Airflow CLI, creating DAGs, the REST API, integration with Apache Hadoop & Apache Spark, and Airflow best practices.
 
-📄 Complete details are available [here](Airflow_Overview_Setup.pdf).
+📄 Complete details are available in the PDF guide, split into two parts due to GitHub's file size limit:
+- [Part 1](docs/Airflow_Overview_Setup_part1.pdf)
+- [Part 2](docs/Airflow_Overview_Setup_part2.pdf)
 
 ## 🗺️ The Journey
 **Zero → Install → Operate → Integrate → Cluster → Best Practices**
